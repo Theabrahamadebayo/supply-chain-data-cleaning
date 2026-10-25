@@ -1,0 +1,521 @@
+shipment_id,supplier,country,ship_date,transport_mode,distance_km,distance_imputed,weight_tonnes,cost_usd,emissions_kg_co2e,emissions_estimated,emissions_check
+SC-0437,Accra Cocoa Traders Ltd,Ghana,2024-01-02,Road,613.0,False,7.786,591.0,477.3,True,ok
+SC-0421,Durban Steel Works Ltd,South Africa,2024-01-02,Road,1509.0,False,19.334,2579.0,3048.5,False,ok
+SC-0103,Kano Textile Co,Nigeria,2024-01-02,Sea,6154.0,True,7.72,550.54,333.0,False,review
+SC-0002,Cairo Plastics Co,Egypt,2024-01-03,Sea,7336.0,False,6.46,1152.96,758.2,True,ok
+SC-0020,Kano Textile Co,Nigeria,2024-01-03,Sea,7446.0,False,11.964,1773.0,1496.4,False,ok
+SC-0487,Ibadan Packaging Ltd,Nigeria,2024-01-04,Road,961.0,False,13.21,1107.3,1222.7,False,ok
+SC-0298,Ibadan Packaging Ltd,Nigeria,2024-01-04,Road,864.0,True,35.19,4553.0,3040.4,True,ok
+SC-0312,Accra Cocoa Traders Ltd,Ghana,2024-01-04,Road,630.0,False,29.73,,1774.8,False,ok
+SC-0492,Accra Cocoa Traders Ltd,Ghana,2024-01-05,Road,263.0,False,12.661,357.62,331.9,False,ok
+SC-0277,Durban Steel Works Ltd,South Africa,2024-01-07,Air,2186.0,False,8.6,19098.0,10980.3,False,ok
+SC-0021,Cairo Plastics Co,Egypt,2024-01-08,Sea,7303.0,False,9.18,1220.77,1072.7,True,ok
+SC-0520,Accra Cocoa Traders Ltd,Ghana,2024-01-09,Road,1174.0,False,13.4,1558.28,1576.6,False,ok
+SC-0442,Accra Cocoa Traders Ltd,Ghana,2024-01-10,Air,3080.0,False,10.8,29664.77,18914.5,False,ok
+SC-0305,Durban Steel Works Ltd,South Africa,2024-01-10,Air,2594.0,True,5.5,9901.88,6403.7,False,ok
+SC-0100,Ibadan Packaging Ltd,Nigeria,2024-01-11,Sea,6490.0,False,13.43,1970.15,1402.7,False,ok
+SC-0032,Accra Cocoa Traders Ltd,Ghana,2024-01-12,Road,485.0,False,16.1,803.29,757.3,False,ok
+SC-0148,Cairo Plastics Co,Egypt,2024-01-14,Road,1158.0,False,25.1,2552.32,3023.9,False,ok
+SC-0017,Lagos Agro Foods Ltd,Nigeria,2024-01-14,Road,103.0,False,3.06,143.0,31.5,True,ok
+SC-0040,Kano Textile Co,Nigeria,2024-01-15,Sea,2560.0,False,3.76,374.48,153.4,False,ok
+SC-0098,Kano Textile Co,Nigeria,2024-01-18,Sea,8304.0,False,3.51,644.0,451.7,False,ok
+SC-0251,Cairo Plastics Co,Egypt,2024-01-19,Road,1455.0,False,15.747,1872.0,2190.0,False,ok
+SC-0079,Cairo Plastics Co,Egypt,2024-01-19,Road,1556.0,False,3.4,517.51,514.3,False,ok
+SC-0005,Accra Cocoa Traders Ltd,Ghana,2024-01-20,Road,866.0,False,,620.84,,False,ok
+SC-0016,Nairobi Fresh Produce Ltd,Kenya,2024-01-21,Air,3126.0,False,7.86,24738.84,14741.5,False,ok
+SC-0494,Nairobi Fresh Produce Ltd,Kenya,2024-01-22,Road,622.0,False,6.828,465.51,400.8,False,ok
+SC-0476,Durban Steel Works Ltd,South Africa,2024-01-22,Road,1065.0,True,9.652,,649.5,False,review
+SC-0486,Cairo Plastics Co,Egypt,2024-01-23,Air,4120.0,False,16.4,62042.6,39702.4,False,ok
+SC-0064,Durban Steel Works Ltd,South Africa,2024-01-23,Road,1100.0,False,11.61,1084.0,1277.1,True,ok
+SC-0488,Accra Cocoa Traders Ltd,Ghana,2024-01-24,Air,4259.0,False,29.57,86589.0,72999.3,False,ok
+SC-0297,Nairobi Fresh Produce Ltd,Kenya,2024-01-24,Road,1782.0,False,19.8,2782.0,3957.6,False,ok
+SC-0430,Nairobi Fresh Produce Ltd,Kenya,2024-01-27,Sea,3458.0,False,21.004,1677.0,1162.1,True,ok
+SC-0181,Kano Textile Co,Nigeria,2024-01-28,Road,374.0,False,36.9,1411.45,1304.3,False,ok
+SC-0058,Durban Steel Works Ltd,South Africa,2024-01-31,Air,5399.0,False,,86968.56,47130.5,False,ok
+SC-0086,Accra Cocoa Traders Ltd,Ghana,2024-01-31,Sea,7503.0,False,17.7,2697.7,2036.1,False,ok
+SC-0186,Nairobi Fresh Produce Ltd,Kenya,2024-02-02,Sea,8866.0,False,3.6,809.45,576.3,False,ok
+SC-0267,Nairobi Fresh Produce Ltd,Kenya,2024-02-03,Road,835.0,False,15.83,1190.63,1321.8,True,ok
+SC-0411,Accra Cocoa Traders Ltd,Ghana,2024-02-04,Air,5653.0,False,8.519,46997.03,31882.4,False,ok
+SC-0292,Kano Textile Co,Nigeria,2024-02-04,Air,644.0,False,15.7,8574.0,6096.7,False,ok
+SC-0332,Durban Steel Works Ltd,South Africa,2024-02-05,Road,912.0,False,5.9,518.97,525.5,False,ok
+SC-0071,Lagos Agro Foods Ltd,Nigeria,2024-02-05,Sea,926.0,False,30.3,667.0,448.9,True,ok
+SC-0375,Accra Cocoa Traders Ltd,Ghana,2024-02-06,Road,385.0,False,16.2,530.05,672.3,False,ok
+SC-0113,Kano Textile Co,Nigeria,2024-02-06,Sea,7896.0,False,40.42,6574.0,5106.5,True,ok
+SC-0341,Lagos Agro Foods Ltd,Nigeria,2024-02-07,Sea,6320.0,False,11.762,1373.23,1128.7,False,ok
+SC-0445,Cairo Plastics Co,Egypt,2024-02-08,Road,263.0,False,5.4,286.0,136.6,False,ok
+SC-0473,Kano Textile Co,Nigeria,2024-02-08,Road,453.0,False,19.901,804.6,898.3,False,ok
+SC-0145,Ibadan Packaging Ltd,Nigeria,2024-02-11,Road,633.0,False,27.49,1577.0,1844.7,False,ok
+SC-0446,Kano Textile Co,Nigeria,2024-02-11,Road,1199.0,False,16.45,1828.0,1972.4,True,ok
+SC-0045,Nairobi Fresh Produce Ltd,Kenya,2024-02-14,Air,2054.0,False,4.807,9509.0,5724.2,False,ok
+SC-0116,Ibadan Packaging Ltd,Nigeria,2024-02-14,Sea,8619.0,False,5.3,1034.0,700.9,False,ok
+SC-0256,Ibadan Packaging Ltd,Nigeria,2024-02-14,Road,160.0,False,22.72,523.08,372.0,False,ok
+SC-0106,Accra Cocoa Traders Ltd,Ghana,2024-02-16,Road,1388.0,False,17.3,1962.82,2397.2,False,ok
+SC-0238,Durban Steel Works Ltd,South Africa,2024-02-16,Sea,7897.0,False,8.89,1537.11,1237.0,False,ok
+SC-0195,Durban Steel Works Ltd,South Africa,2024-02-17,Sea,1341.0,False,,278.91,97.2,False,ok
+SC-0198,Cairo Plastics Co,Egypt,2024-02-17,Road,1650.0,False,7.68,1167.96,1300.2,False,ok
+SC-0315,Nairobi Fresh Produce Ltd,Kenya,2024-02-17,Air,3293.0,False,3.337,9935.76,6593.2,True,ok
+SC-0353,Ibadan Packaging Ltd,Nigeria,2024-02-18,Road,1550.0,False,4.155,820.43,621.0,False,ok
+SC-0068,Ibadan Packaging Ltd,Nigeria,2024-02-19,Air,3707.0,False,11.3,39283.07,24613.3,False,ok
+SC-0156,Lagos Agro Foods Ltd,Nigeria,2024-02-22,Road,1783.0,False,18.7,,3364.5,False,ok
+SC-0481,Cairo Plastics Co,Egypt,2024-02-22,Sea,6301.0,False,6.27,1037.0,643.2,False,ok
+SC-0244,Durban Steel Works Ltd,South Africa,2024-02-25,Sea,4581.0,False,9.01,886.77,664.1,False,ok
+SC-0468,Kano Textile Co,Nigeria,2024-03-01,Road,216.0,False,26.17,699.82,542.8,False,ok
+SC-0028,Nairobi Fresh Produce Ltd,Kenya,2024-03-02,Sea,4729.0,False,,481.0,264.3,False,ok
+SC-0344,Cairo Plastics Co,Egypt,2024-03-04,Road,834.0,False,1.9,299.92,158.5,True,ok
+SC-0226,Lagos Agro Foods Ltd,Nigeria,2024-03-05,Road,532.0,False,5.01,414.82,250.2,False,ok
+SC-0055,Ibadan Packaging Ltd,Nigeria,2024-03-08,Road,1779.0,False,,1214.31,1438.2,False,ok
+SC-0208,Durban Steel Works Ltd,South Africa,2024-03-08,Road,138.0,False,7.8,219.95,107.6,True,ok
+SC-0323,Ibadan Packaging Ltd,Nigeria,2024-03-10,Road,1387.0,False,,1065.36,,False,ok
+SC-0196,Ibadan Packaging Ltd,Nigeria,2024-03-10,Air,3191.0,False,5.5,15745.84,10530.3,True,ok
+SC-0168,Kano Textile Co,Nigeria,2024-03-10,Sea,8364.0,False,7.854,1428.0,1051.1,True,ok
+SC-0205,Durban Steel Works Ltd,South Africa,2024-03-10,Air,1603.0,False,9.43,13498.2,9069.8,True,ok
+SC-0194,Lagos Agro Foods Ltd,Nigeria,2024-03-10,Sea,3238.0,False,55.53,,2896.9,False,ok
+SC-0394,Kano Textile Co,Nigeria,2024-03-12,Road,838.0,True,17.79,981.0,976.1,False,review
+SC-0169,Durban Steel Works Ltd,South Africa,2024-03-14,Road,1071.0,False,7.54,833.25,774.4,False,ok
+SC-0090,Ibadan Packaging Ltd,Nigeria,2024-03-15,Road,1394.0,False,6.0,745.0,826.1,False,ok
+SC-0386,Kano Textile Co,Nigeria,2024-03-15,Sea,5171.0,False,7.53,1000.75,643.3,False,ok
+SC-0175,Accra Cocoa Traders Ltd,Ghana,2024-03-16,Road,1152.0,False,14.852,1809.89,1711.0,True,ok
+SC-0253,Lagos Agro Foods Ltd,Nigeria,2024-03-16,Air,3973.0,False,28.7,93829.0,65042.4,False,ok
+SC-0126,Accra Cocoa Traders Ltd,Ghana,2024-03-16,Road,142.0,False,3.07,184.0,47.7,False,ok
+SC-0299,Ibadan Packaging Ltd,Nigeria,2024-03-19,Sea,5355.0,False,5.8,854.11,500.7,False,ok
+SC-0482,Nairobi Fresh Produce Ltd,Kenya,2024-03-19,Road,140.0,False,12.51,266.81,190.6,False,ok
+SC-0324,Lagos Agro Foods Ltd,Nigeria,2024-03-20,Sea,6880.0,False,12.5,1854.0,1397.4,False,ok
+SC-0185,Ibadan Packaging Ltd,Nigeria,2024-03-21,Road,570.0,False,6.368,477.0,369.2,False,ok
+SC-0464,Lagos Agro Foods Ltd,Nigeria,2024-03-23,Sea,8633.0,False,7.1,1350.0,980.7,True,ok
+SC-0336,Lagos Agro Foods Ltd,Nigeria,2024-03-27,Sea,3723.0,False,6.8,653.34,382.1,False,ok
+SC-0364,Lagos Agro Foods Ltd,Nigeria,2024-03-28,Sea,3059.0,False,28.871,2012.21,1413.1,True,ok
+SC-0454,Ibadan Packaging Ltd,Nigeria,2024-03-29,Sea,8790.0,False,3.846,864.0,540.9,True,ok
+SC-0262,Accra Cocoa Traders Ltd,Ghana,2024-03-30,Road,861.0,False,30.339,2040.0,2612.2,True,ok
+SC-0273,Kano Textile Co,Nigeria,2024-04-04,Road,652.0,False,7.566,528.0,498.9,False,ok
+SC-0093,Kano Textile Co,Nigeria,2024-04-04,Road,1733.0,False,,1225.3,1437.7,False,ok
+SC-0408,Cairo Plastics Co,Egypt,2024-04-04,Sea,8106.0,False,8.324,1388.0,1109.2,False,ok
+SC-0500,Durban Steel Works Ltd,South Africa,2024-04-04,Road,1586.0,False,41.7,5733.0,6809.7,False,ok
+SC-0111,Ibadan Packaging Ltd,Nigeria,2024-04-04,Road,865.0,False,11.5,882.45,1030.0,False,ok
+SC-0330,Cairo Plastics Co,Egypt,2024-04-06,Road,1705.0,False,12.925,1866.0,2038.5,False,ok
+SC-0250,Lagos Agro Foods Ltd,Nigeria,2024-04-08,Road,543.0,False,9.6,508.88,509.7,False,ok
+SC-0051,Ibadan Packaging Ltd,Nigeria,2024-04-10,Sea,7013.0,False,28.74,4419.99,3215.4,False,ok
+SC-0095,Accra Cocoa Traders Ltd,Ghana,2024-04-10,Sea,4132.0,False,11.8,1159.0,796.8,False,ok
+SC-0493,Cairo Plastics Co,Egypt,2024-04-10,Sea,6159.0,False,6.069,988.52,577.4,False,ok
+SC-0513,Kano Textile Co,Nigeria,2024-04-11,Air,633.0,False,6.24,3464.54,2351.6,False,ok
+SC-0046,Durban Steel Works Ltd,South Africa,2024-04-12,Road,1597.0,False,9.923,1242.0,1584.7,True,ok
+SC-0232,Kano Textile Co,Nigeria,2024-04-12,Road,1354.0,False,6.36,892.47,885.8,False,ok
+SC-0234,Accra Cocoa Traders Ltd,Ghana,2024-04-12,Sea,6770.0,False,62.1,7651.0,7060.8,False,ok
+SC-0122,Nairobi Fresh Produce Ltd,Kenya,2024-04-15,Road,1663.0,False,5.9,909.1,957.6,False,ok
+SC-0448,Ibadan Packaging Ltd,Nigeria,2024-04-15,Road,506.0,False,6.161,466.0,321.9,False,ok
+SC-0477,Lagos Agro Foods Ltd,Nigeria,2024-04-16,Sea,7452.0,False,7.34,1055.0,843.7,False,ok
+SC-0410,Accra Cocoa Traders Ltd,Ghana,2024-04-16,Sea,4057.0,False,5.788,606.26,375.7,True,ok
+SC-0022,Ibadan Packaging Ltd,Nigeria,2024-04-18,Road,364.0,False,2.94,254.0,107.0,True,ok
+SC-0217,Accra Cocoa Traders Ltd,Ghana,2024-04-19,Road,1434.0,False,6.6,854.49,963.9,False,ok
+SC-0424,Kano Textile Co,Nigeria,2024-04-19,Road,434.0,False,4.8,252.34,208.1,False,ok
+SC-0490,Durban Steel Works Ltd,South Africa,2024-04-19,Road,688.0,False,8.5,642.34,561.5,False,ok
+SC-0399,Nairobi Fresh Produce Ltd,Kenya,2024-04-19,Sea,8652.0,False,,286.49,122.2,False,ok
+SC-0289,Nairobi Fresh Produce Ltd,Kenya,2024-04-21,Sea,5634.0,False,12.7,1754.0,1150.6,False,ok
+SC-0483,Lagos Agro Foods Ltd,Nigeria,2024-04-21,Road,1763.0,False,20.4,3004.61,3699.3,False,ok
+SC-0104,Durban Steel Works Ltd,South Africa,2024-04-25,Road,1694.0,False,13.0,1803.0,2203.9,False,ok
+SC-0417,Cairo Plastics Co,Egypt,2024-04-27,Sea,2951.0,False,3.61,327.0,175.5,False,ok
+SC-0478,Cairo Plastics Co,Egypt,2024-04-28,Air,2182.0,False,,9982.93,7080.9,False,ok
+SC-0402,Nairobi Fresh Produce Ltd,Kenya,2024-04-30,Road,517.0,False,10.55,575.0,545.4,True,ok
+SC-0219,Accra Cocoa Traders Ltd,Ghana,2024-05-02,Sea,4606.0,False,30.4,2710.0,2240.4,True,ok
+SC-0059,Durban Steel Works Ltd,South Africa,2024-05-04,Road,108.0,False,10.3,277.0,116.1,False,ok
+SC-0138,Accra Cocoa Traders Ltd,Ghana,2024-05-05,Road,536.0,False,8.32,518.0,446.0,True,ok
+SC-0265,Ibadan Packaging Ltd,Nigeria,2024-05-05,Air,2447.0,True,9.51,50830.0,13962.6,True,ok
+SC-0063,Ibadan Packaging Ltd,Nigeria,2024-05-05,Air,1722.0,False,8.98,11858.1,9109.0,False,ok
+SC-0296,Cairo Plastics Co,Egypt,2024-05-06,Sea,3327.0,False,17.7,1493.0,903.7,False,ok
+SC-0233,Nairobi Fresh Produce Ltd,Kenya,2024-05-08,Sea,7501.0,False,6.678,930.1,801.5,True,ok
+SC-0300,Lagos Agro Foods Ltd,Nigeria,2024-05-11,Road,358.0,False,12.3,506.55,464.8,False,ok
+SC-0499,Durban Steel Works Ltd,South Africa,2024-05-11,Road,711.0,False,3.078,322.32,218.8,True,ok
+SC-0287,Ibadan Packaging Ltd,Nigeria,2024-05-11,Road,929.0,False,15.1,1343.46,1331.8,False,ok
+SC-0359,Lagos Agro Foods Ltd,Nigeria,2024-05-12,Sea,7055.0,False,7.5,,871.3,False,ok
+SC-0436,Ibadan Packaging Ltd,Nigeria,2024-05-14,Air,2386.0,False,17.45,41492.51,24981.4,True,ok
+SC-0274,Durban Steel Works Ltd,South Africa,2024-05-14,Sea,6824.0,False,4.83,724.29,527.4,True,ok
+SC-0087,Nairobi Fresh Produce Ltd,Kenya,2024-05-14,Sea,3888.0,False,9.4,,553.2,False,ok
+SC-0043,Nairobi Fresh Produce Ltd,Kenya,2024-05-15,Road,850.0,False,25.37,1885.0,2156.5,True,ok
+SC-0247,Nairobi Fresh Produce Ltd,Kenya,2024-05-15,Air,4622.0,False,4.844,20646.0,13290.1,False,ok
+SC-0475,Durban Steel Works Ltd,South Africa,2024-05-15,Sea,4856.0,False,9.1,1095.02,698.6,False,ok
+SC-0286,Cairo Plastics Co,Egypt,2024-05-15,Sea,5842.0,True,6.28,353.06,587.0,True,ok
+SC-0370,Durban Steel Works Ltd,South Africa,2024-05-15,Road,137.0,False,10.42,248.43,143.6,False,ok
+SC-0121,Kano Textile Co,Nigeria,2024-05-16,Road,1536.0,False,8.7,1274.0,1383.8,False,ok
+SC-0026,Durban Steel Works Ltd,South Africa,2024-05-17,Sea,6347.0,False,6.7,1006.2,671.6,False,ok
+SC-0041,Ibadan Packaging Ltd,Nigeria,2024-05-18,Road,1200.0,False,16.8,1747.0,2016.0,True,ok
+SC-0128,Durban Steel Works Ltd,South Africa,2024-05-19,Road,1371.0,False,7.355,949.0,955.3,False,ok
+SC-0003,Durban Steel Works Ltd,South Africa,2024-05-19,Road,933.0,False,16.23,1190.0,1479.7,False,ok
+SC-0089,Ibadan Packaging Ltd,Nigeria,2024-05-19,Road,790.0,False,9.57,680.0,756.0,True,ok
+SC-0356,Cairo Plastics Co,Egypt,2024-05-21,Sea,3875.0,False,4.77,474.07,314.1,False,ok
+SC-0221,Kano Textile Co,Nigeria,2024-05-22,Sea,3912.0,False,30.77,2157.0,1926.0,True,ok
+SC-0337,Nairobi Fresh Produce Ltd,Kenya,2024-05-23,Sea,1804.0,False,10.679,434.15,298.0,False,ok
+SC-0276,Ibadan Packaging Ltd,Nigeria,2024-05-24,Road,1417.0,False,6.31,859.93,853.6,False,ok
+SC-0261,Cairo Plastics Co,Egypt,2024-05-24,Road,637.0,False,11.2,838.0,706.9,False,ok
+SC-0281,Cairo Plastics Co,Egypt,2024-05-26,Road,1787.0,False,18.48,2685.76,3302.4,True,ok
+SC-0311,Lagos Agro Foods Ltd,Nigeria,2024-05-27,Sea,5348.0,True,4.357,874.58,528.8,False,review
+SC-0506,Kano Textile Co,Nigeria,2024-05-28,Sea,8576.0,False,40.9,6447.47,5157.7,False,ok
+SC-0112,Nairobi Fresh Produce Ltd,Kenya,2024-05-29,Sea,4955.0,False,7.8,1011.51,599.1,False,ok
+SC-0264,Kano Textile Co,Nigeria,2024-05-30,Road,602.0,False,4.65,434.0,281.8,False,ok
+SC-0502,Cairo Plastics Co,Egypt,2024-05-30,Road,810.0,False,4.2,374.0,370.6,False,ok
+SC-0249,Cairo Plastics Co,Egypt,2024-05-31,Road,1233.0,False,12.0,1098.0,1385.5,False,ok
+SC-0365,Nairobi Fresh Produce Ltd,Kenya,2024-06-01,Road,222.0,False,24.5,570.24,543.9,True,ok
+SC-0061,Durban Steel Works Ltd,South Africa,2024-06-03,Road,1150.0,False,11.526,1200.22,1359.2,False,ok
+SC-0179,Cairo Plastics Co,Egypt,2024-06-04,Air,2308.0,False,5.6,11020.0,8122.9,False,ok
+SC-0163,Nairobi Fresh Produce Ltd,Kenya,2024-06-05,Sea,3539.0,False,2.54,299.31,148.7,False,ok
+SC-0184,Durban Steel Works Ltd,South Africa,2024-06-06,Air,1047.0,False,,2252.0,,False,ok
+SC-0461,Nairobi Fresh Produce Ltd,Kenya,2024-06-07,Air,3360.0,True,14.8,41021.0,27016.9,False,ok
+SC-0382,Kano Textile Co,Nigeria,2024-06-08,Road,1163.0,False,8.585,860.0,922.0,False,ok
+SC-0200,Lagos Agro Foods Ltd,Nigeria,2024-06-09,Air,5426.0,False,5.665,27642.64,18443.0,True,ok
+SC-0140,Kano Textile Co,Nigeria,2024-06-10,Sea,1079.0,False,14.675,434.19,253.3,True,ok
+SC-0235,Accra Cocoa Traders Ltd,Ghana,2024-06-11,Sea,5218.0,True,4.42,634.63,369.0,True,ok
+SC-0044,Cairo Plastics Co,Egypt,2024-06-12,Road,1386.0,False,,1286.47,,False,ok
+SC-0425,Ibadan Packaging Ltd,Nigeria,2024-06-20,Road,1550.0,False,13.4,2149.0,2077.0,True,ok
+SC-0036,Durban Steel Works Ltd,South Africa,2024-06-22,Road,1147.0,False,17.954,1524.47,1852.4,False,ok
+SC-0199,Accra Cocoa Traders Ltd,Ghana,2024-06-23,Air,1058.0,False,4.5,5163.0,2534.8,False,ok
+SC-0257,Accra Cocoa Traders Ltd,Ghana,2024-06-24,Road,1480.0,False,13.359,,1909.4,False,ok
+SC-0340,Cairo Plastics Co,Egypt,2024-06-25,Air,618.0,False,16.484,8967.7,6112.3,True,ok
+SC-0139,Accra Cocoa Traders Ltd,Ghana,2024-06-25,Sea,2330.0,False,3.02,282.46,112.6,True,ok
+SC-0010,Nairobi Fresh Produce Ltd,Kenya,2024-06-25,Road,1479.0,False,9.5,1364.2,1512.7,False,ok
+SC-0440,Cairo Plastics Co,Egypt,2024-06-28,Road,117.0,False,11.0,274.0,124.6,False,ok
+SC-0352,Ibadan Packaging Ltd,Nigeria,2024-06-29,Road,864.0,True,8.092,793.8,699.1,True,ok
+SC-0240,Kano Textile Co,Nigeria,2024-07-01,Road,1695.0,False,10.8,1905.0,1767.4,False,ok
+SC-0101,Lagos Agro Foods Ltd,Nigeria,2024-07-02,Road,281.0,False,16.641,556.17,467.6,True,ok
+SC-0149,Kano Textile Co,Nigeria,2024-07-02,Road,201.0,False,17.13,437.06,347.8,False,ok
+SC-0023,Cairo Plastics Co,Egypt,2024-07-04,Road,1716.0,False,23.9,3965.22,4090.1,False,ok
+SC-0379,Lagos Agro Foods Ltd,Nigeria,2024-07-05,Sea,1584.0,False,23.1,1087.19,594.7,False,ok
+SC-0517,Accra Cocoa Traders Ltd,Ghana,2024-07-09,Sea,3094.0,False,42.747,2948.75,2124.0,False,ok
+SC-0141,Nairobi Fresh Produce Ltd,Kenya,2024-07-09,Sea,5637.0,False,7.2,884.85,675.9,False,ok
+SC-0239,Nairobi Fresh Produce Ltd,Kenya,2024-07-11,Road,391.0,False,5.779,320.0,236.4,False,ok
+SC-0511,Ibadan Packaging Ltd,Nigeria,2024-07-11,Sea,2718.0,False,10.14,,457.4,False,ok
+SC-0252,Cairo Plastics Co,Egypt,2024-07-12,Sea,5842.0,True,64.0,11144.0,5982.2,True,ok
+SC-0127,Ibadan Packaging Ltd,Nigeria,2024-07-13,Sea,3103.0,False,6.212,618.65,308.4,True,ok
+SC-0019,Cairo Plastics Co,Egypt,2024-07-13,Road,1389.0,False,16.3,2067.0,2151.5,False,ok
+SC-0114,Ibadan Packaging Ltd,Nigeria,2024-07-20,Sea,1400.0,False,10.82,474.0,242.4,True,ok
+SC-0085,Durban Steel Works Ltd,South Africa,2024-07-22,Road,402.0,False,20.661,731.75,819.5,False,ok
+SC-0480,Accra Cocoa Traders Ltd,Ghana,2024-07-23,Air,4259.0,True,16.76,74346.39,43444.6,False,ok
+SC-0136,Durban Steel Works Ltd,South Africa,2024-07-23,Sea,5375.0,True,16.25,1646.95,1234.1,False,ok
+SC-0268,Durban Steel Works Ltd,South Africa,2024-07-24,Sea,4878.0,False,17.725,1788.94,1410.4,False,ok
+SC-0108,Ibadan Packaging Ltd,Nigeria,2024-07-25,Sea,6046.0,True,8.756,1268.0,847.0,True,ok
+SC-0381,Accra Cocoa Traders Ltd,Ghana,2024-07-26,Air,4259.0,True,29.6,53008.84,41539.7,False,review
+SC-0161,Durban Steel Works Ltd,South Africa,2024-07-27,Road,568.0,False,7.403,543.47,424.8,False,ok
+SC-0514,Durban Steel Works Ltd,South Africa,2024-07-28,Sea,6588.0,False,9.074,1171.77,1010.7,False,ok
+SC-0467,Lagos Agro Foods Ltd,Nigeria,2024-07-29,Sea,7401.0,False,8.55,1278.8,1012.5,True,ok
+SC-0224,Lagos Agro Foods Ltd,Nigeria,2024-07-29,Road,1200.0,False,11.9,1126.0,1539.3,False,ok
+SC-0201,Ibadan Packaging Ltd,Nigeria,2024-07-30,Air,4724.0,False,,22207.0,15715.4,False,ok
+SC-0501,Ibadan Packaging Ltd,Nigeria,2024-07-31,Road,826.0,False,21.6,1382.32,1876.9,False,ok
+SC-0248,Cairo Plastics Co,Egypt,2024-08-01,Road,564.0,False,13.8,791.3,828.0,False,ok
+SC-0271,Kano Textile Co,Nigeria,2024-08-04,Road,1200.0,False,3.1,427.18,365.6,False,ok
+SC-0027,Nairobi Fresh Produce Ltd,Kenya,2024-08-05,Road,139.0,False,31.748,470.0,417.8,False,ok
+SC-0507,Durban Steel Works Ltd,South Africa,2024-08-06,Road,1018.0,False,4.555,575.47,463.7,True,ok
+SC-0012,Lagos Agro Foods Ltd,Nigeria,2024-08-07,Road,1744.0,False,3.9,647.0,711.3,False,ok
+SC-0407,Nairobi Fresh Produce Ltd,Kenya,2024-08-09,Air,5359.0,False,,72765.9,47103.5,False,ok
+SC-0465,Nairobi Fresh Produce Ltd,Kenya,2024-08-10,Road,524.0,False,4.9,287.37,251.5,False,ok
+SC-0030,Nairobi Fresh Produce Ltd,Kenya,2024-08-12,Sea,5294.0,True,4.26,899.86,497.1,False,review
+SC-0025,Kano Textile Co,Nigeria,2024-08-12,Air,971.0,False,24.046,20841.11,14009.2,True,ok
+SC-0052,Kano Textile Co,Nigeria,2024-08-17,Road,1528.0,False,14.2,,2169.8,True,ok
+SC-0084,Cairo Plastics Co,Egypt,2024-08-17,Sea,7586.0,False,3.769,696.62,457.5,True,ok
+SC-0314,Durban Steel Works Ltd,South Africa,2024-08-18,Sea,8158.0,False,11.74,,1610.4,False,ok
+SC-0018,Durban Steel Works Ltd,South Africa,2024-08-21,Road,1577.0,False,5.572,801.57,878.7,True,ok
+SC-0342,Lagos Agro Foods Ltd,Nigeria,2024-08-21,Road,1180.0,False,23.9,2263.0,2820.2,True,ok
+SC-0160,Kano Textile Co,Nigeria,2024-08-22,Sea,1265.0,False,9.8,376.0,192.6,False,ok
+SC-0288,Durban Steel Works Ltd,South Africa,2024-08-22,Road,1065.0,True,2.396,338.0,181.8,False,ok
+SC-0081,Ibadan Packaging Ltd,Nigeria,2024-08-23,Air,2504.0,False,4.27,8132.51,6415.2,True,ok
+SC-0146,Cairo Plastics Co,Egypt,2024-08-25,Road,1290.0,False,8.933,1374.32,1152.4,True,ok
+SC-0463,Kano Textile Co,Nigeria,2024-08-29,Sea,8336.0,False,25.67,4639.52,3431.7,False,ok
+SC-0328,Durban Steel Works Ltd,South Africa,2024-08-30,Sea,3133.0,False,14.44,1228.0,657.4,False,ok
+SC-0231,Kano Textile Co,Nigeria,2024-08-30,Sea,2716.0,False,,861.2,,False,ok
+SC-0449,Ibadan Packaging Ltd,Nigeria,2024-08-31,Road,1459.0,False,14.204,1947.49,2072.4,True,ok
+SC-0466,Lagos Agro Foods Ltd,Nigeria,2024-08-31,Sea,5348.0,True,4.2,586.29,402.1,False,ok
+SC-0110,Kano Textile Co,Nigeria,2024-09-01,Road,838.0,True,7.15,536.92,413.0,False,review
+SC-0423,Kano Textile Co,Nigeria,2024-09-02,Road,838.0,True,43.386,6441.8,6910.0,False,review
+SC-0255,Accra Cocoa Traders Ltd,Ghana,2024-09-03,Road,1740.0,False,17.42,2989.64,2994.9,False,ok
+SC-0115,Cairo Plastics Co,Egypt,2024-09-04,Air,2327.0,False,5.866,12262.32,8190.1,True,ok
+SC-0135,Ibadan Packaging Ltd,Nigeria,2024-09-04,Air,5707.0,False,4.253,22971.03,14563.1,True,ok
+SC-0107,Kano Textile Co,Nigeria,2024-09-05,Air,2182.0,False,9.642,19466.27,13499.3,False,ok
+SC-0133,Cairo Plastics Co,Egypt,2024-09-07,Sea,6845.0,False,5.238,704.45,563.1,False,ok
+SC-0269,Accra Cocoa Traders Ltd,Ghana,2024-09-07,Sea,6968.0,False,46.1,7046.55,5050.4,False,ok
+SC-0432,Cairo Plastics Co,Egypt,2024-09-10,Air,1598.0,False,22.498,31555.7,21243.4,False,ok
+SC-0397,Ibadan Packaging Ltd,Nigeria,2024-09-10,Road,537.0,False,13.12,697.0,704.5,True,ok
+SC-0212,Accra Cocoa Traders Ltd,Ghana,2024-09-11,Road,690.0,False,6.22,471.05,408.2,False,ok
+SC-0385,Durban Steel Works Ltd,South Africa,2024-09-12,Road,86.0,False,20.39,290.0,175.4,True,ok
+SC-0438,Durban Steel Works Ltd,South Africa,2024-09-15,Road,517.0,False,5.6,400.0,289.5,True,ok
+SC-0094,Cairo Plastics Co,Egypt,2024-09-15,Road,852.0,False,,1051.53,,False,ok
+SC-0057,Ibadan Packaging Ltd,Nigeria,2024-09-15,Road,599.0,False,4.6,420.84,263.2,False,ok
+SC-0439,Cairo Plastics Co,Egypt,2024-09-17,Sea,3527.0,False,3.454,402.48,200.9,False,ok
+SC-0509,Cairo Plastics Co,Egypt,2024-09-18,Sea,3383.0,False,3.73,344.0,210.0,False,ok
+SC-0409,Durban Steel Works Ltd,South Africa,2024-09-18,Road,103.0,False,12.99,198.72,134.4,False,ok
+SC-0348,Nairobi Fresh Produce Ltd,Kenya,2024-09-19,Road,1529.0,False,7.8,1168.0,1288.8,False,ok
+SC-0512,Durban Steel Works Ltd,South Africa,2024-09-21,Road,1156.0,False,8.755,1015.0,1012.1,True,ok
+SC-0355,Ibadan Packaging Ltd,Nigeria,2024-09-21,Road,502.0,False,20.6,1032.02,1034.1,True,ok
+SC-0285,Kano Textile Co,Nigeria,2024-09-23,Road,760.0,False,7.942,601.13,606.6,False,ok
+SC-0320,Ibadan Packaging Ltd,Nigeria,2024-09-23,Air,2058.0,False,,43517.41,,False,ok
+SC-0092,Lagos Agro Foods Ltd,Nigeria,2024-09-24,Road,822.0,False,10.63,862.0,873.8,True,ok
+SC-0459,Nairobi Fresh Produce Ltd,Kenya,2024-09-25,Sea,2293.0,False,4.3,304.0,159.3,False,ok
+SC-0236,Kano Textile Co,Nigeria,2024-09-25,Road,788.0,False,35.611,2185.35,3018.5,False,ok
+SC-0326,Kano Textile Co,Nigeria,2024-09-27,Road,333.0,False,9.6,444.68,340.0,False,ok
+SC-0006,Ibadan Packaging Ltd,Nigeria,2024-09-28,Road,71.0,False,5.0,164.55,37.5,False,ok
+SC-0293,Cairo Plastics Co,Egypt,2024-09-29,Road,1625.0,False,18.4,2109.0,3087.7,False,ok
+SC-0343,Ibadan Packaging Ltd,Nigeria,2024-09-30,Sea,6818.0,False,19.3,3170.35,2105.4,True,ok
+SC-0154,Kano Textile Co,Nigeria,2024-10-02,Road,838.0,True,3.961,457.0,325.9,False,ok
+SC-0157,Lagos Agro Foods Ltd,Nigeria,2024-10-02,Road,842.0,True,,966.01,1106.9,False,ok
+SC-0329,Durban Steel Works Ltd,South Africa,2024-10-03,Sea,3361.0,False,5.1,487.22,274.3,True,ok
+SC-0479,Durban Steel Works Ltd,South Africa,2024-10-03,Air,5117.0,False,6.42,33044.0,19970.5,False,ok
+SC-0413,Cairo Plastics Co,Egypt,2024-10-04,Road,739.0,False,12.323,896.13,875.5,False,ok
+SC-0009,Durban Steel Works Ltd,South Africa,2024-10-04,Air,2551.0,False,17.01,34762.67,26035.5,True,ok
+SC-0384,Nairobi Fresh Produce Ltd,Kenya,2024-10-04,Sea,6576.0,False,4.988,813.89,524.8,True,ok
+SC-0433,Cairo Plastics Co,Egypt,2024-10-04,Air,1785.0,False,8.9,16863.06,10290.2,False,ok
+SC-0008,Ibadan Packaging Ltd,Nigeria,2024-10-05,Sea,6046.0,False,25.82,2803.0,2497.7,True,ok
+SC-0176,Durban Steel Works Ltd,South Africa,2024-10-05,Road,1036.0,False,8.396,919.4,868.1,False,ok
+SC-0338,Nairobi Fresh Produce Ltd,Kenya,2024-10-05,Road,415.0,False,7.7,421.0,319.6,True,ok
+SC-0190,Kano Textile Co,Nigeria,2024-10-06,Sea,6154.0,True,16.969,2013.84,1791.7,False,ok
+SC-0369,Nairobi Fresh Produce Ltd,Kenya,2024-10-06,Road,1002.0,False,8.0,673.16,747.6,False,ok
+SC-0280,Lagos Agro Foods Ltd,Nigeria,2024-10-07,Sea,3969.0,False,15.24,1176.86,961.6,False,ok
+SC-0048,Ibadan Packaging Ltd,Nigeria,2024-10-10,Sea,2365.0,False,8.26,531.0,331.7,False,ok
+SC-0422,Durban Steel Works Ltd,South Africa,2024-10-10,Sea,7993.0,False,2.334,598.0,300.0,False,ok
+SC-0434,Durban Steel Works Ltd,South Africa,2024-10-10,Road,1601.0,False,13.02,1984.99,2114.6,False,ok
+SC-0024,Cairo Plastics Co,Egypt,2024-10-11,Air,4611.0,False,21.521,84730.18,59386.0,False,ok
+SC-0333,Accra Cocoa Traders Ltd,Ghana,2024-10-11,Sea,5937.0,False,4.07,,386.6,True,ok
+SC-0211,Accra Cocoa Traders Ltd,Ghana,2024-10-12,Sea,5218.0,True,15.898,3051.0,2375.0,False,review
+SC-0123,Cairo Plastics Co,Egypt,2024-10-13,Sea,5842.0,True,11.91,1335.95,923.4,False,ok
+SC-0088,Ibadan Packaging Ltd,Nigeria,2024-10-13,Sea,2466.0,False,36.84,1940.4,1399.1,False,ok
+SC-0496,Accra Cocoa Traders Ltd,Ghana,2024-10-17,Sea,5218.0,True,19.313,1708.0,1612.4,True,ok
+SC-0258,Ibadan Packaging Ltd,Nigeria,2024-10-18,Road,518.0,False,13.792,624.0,714.4,True,ok
+SC-0034,Cairo Plastics Co,Egypt,2024-10-20,Sea,5842.0,True,28.8,3283.27,2981.0,False,ok
+SC-0458,Ibadan Packaging Ltd,Nigeria,2024-10-20,Sea,6055.0,False,4.98,910.52,468.4,False,ok
+SC-0515,Kano Textile Co,Nigeria,2024-10-22,Road,53.0,False,11.887,204.0,61.7,False,ok
+SC-0220,Lagos Agro Foods Ltd,Nigeria,2024-10-23,Sea,8359.0,False,,1668.39,1247.0,False,ok
+SC-0119,Durban Steel Works Ltd,South Africa,2024-10-24,Sea,4105.0,False,7.72,884.54,519.5,False,ok
+SC-0209,Kano Textile Co,Nigeria,2024-10-25,Sea,8487.0,False,23.31,4623.0,3165.3,True,ok
+SC-0405,Nairobi Fresh Produce Ltd,Kenya,2024-10-27,Sea,2112.0,False,3.1,256.73,104.8,True,ok
+SC-0321,Nairobi Fresh Produce Ltd,Kenya,2024-10-29,Sea,8017.0,False,,1655.93,,False,ok
+SC-0243,Cairo Plastics Co,Egypt,2024-10-29,Road,119.0,False,15.3,278.18,182.1,True,ok
+SC-0426,Ibadan Packaging Ltd,Nigeria,2024-11-01,Road,1117.0,False,13.534,1334.0,1597.2,False,ok
+SC-0380,Accra Cocoa Traders Ltd,Ghana,2024-11-01,Road,1735.0,False,5.3,1020.0,981.7,False,ok
+SC-0427,Durban Steel Works Ltd,South Africa,2024-11-03,Air,4975.0,False,7.0,26246.6,23051.0,False,ok
+SC-0404,Durban Steel Works Ltd,South Africa,2024-11-03,Sea,8119.0,False,7.579,1190.0,1030.1,False,ok
+SC-0313,Durban Steel Works Ltd,South Africa,2024-11-06,Road,681.0,False,10.1,,687.8,True,ok
+SC-0117,Nairobi Fresh Produce Ltd,Kenya,2024-11-07,Sea,5632.0,False,7.794,1005.38,727.4,False,ok
+SC-0014,Cairo Plastics Co,Egypt,2024-11-07,Road,387.0,False,7.39,367.0,291.0,False,ok
+SC-0495,Kano Textile Co,Nigeria,2024-11-07,Sea,6579.0,False,24.6,3474.71,2589.5,True,ok
+SC-0519,Nairobi Fresh Produce Ltd,Kenya,2024-11-07,Sea,5748.0,False,6.392,914.59,569.8,False,ok
+SC-0275,Nairobi Fresh Produce Ltd,Kenya,2024-11-10,Road,810.0,False,10.891,891.0,849.5,False,ok
+SC-0302,Ibadan Packaging Ltd,Nigeria,2024-11-11,Air,2207.0,False,4.7,7693.17,6594.6,False,ok
+SC-0118,Accra Cocoa Traders Ltd,Ghana,2024-11-14,Road,340.0,False,58.7,1924.11,1987.3,False,ok
+SC-0192,Kano Textile Co,Nigeria,2024-11-16,Air,2426.0,False,6.0,10800.98,8733.6,True,ok
+SC-0284,Kano Textile Co,Nigeria,2024-11-16,Road,889.0,False,7.264,720.79,600.0,False,ok
+SC-0484,Kano Textile Co,Nigeria,2024-11-17,Sea,5730.0,False,23.44,2345.45,2149.0,True,ok
+SC-0033,Kano Textile Co,Nigeria,2024-11-18,Road,1236.0,False,9.0,1102.07,1112.4,True,ok
+SC-0174,Accra Cocoa Traders Ltd,Ghana,2024-11-19,Road,240.0,False,4.761,257.71,106.7,False,ok
+SC-0290,Cairo Plastics Co,Egypt,2024-11-21,Road,1609.0,False,27.315,3727.03,4414.3,False,ok
+SC-0441,Durban Steel Works Ltd,South Africa,2024-11-21,Sea,5716.0,False,12.9,1531.37,1206.3,False,ok
+SC-0435,Durban Steel Works Ltd,South Africa,2024-11-26,Sea,4735.0,False,24.9,2404.0,1886.4,True,ok
+SC-0143,Accra Cocoa Traders Ltd,Ghana,2024-11-26,Air,5730.0,False,11.06,56161.39,34813.9,False,ok
+SC-0412,Ibadan Packaging Ltd,Nigeria,2024-11-26,Road,672.0,False,20.36,1470.21,1444.7,False,ok
+SC-0011,Accra Cocoa Traders Ltd,Ghana,2024-11-26,Sea,5218.0,True,10.9,1362.34,1075.6,False,ok
+SC-0308,Lagos Agro Foods Ltd,Nigeria,2024-11-26,Road,244.0,False,22.0,653.0,536.8,True,ok
+SC-0223,Nairobi Fresh Produce Ltd,Kenya,2024-11-27,Road,1035.0,False,11.33,840.33,1129.3,False,ok
+SC-0462,Kano Textile Co,Nigeria,2024-11-28,Sea,1612.0,False,7.86,360.15,197.4,False,ok
+SC-0378,Durban Steel Works Ltd,South Africa,2024-11-30,Road,66.0,False,6.09,170.0,44.3,False,ok
+SC-0414,Nairobi Fresh Produce Ltd,Kenya,2024-12-01,Sea,5294.0,True,10.5,1371.11,889.4,True,ok
+SC-0388,Accra Cocoa Traders Ltd,Ghana,2024-12-02,Road,74.0,False,,,34.2,False,ok
+SC-0150,Nairobi Fresh Produce Ltd,Kenya,2024-12-03,Road,506.0,False,13.8,761.0,680.8,False,ok
+SC-0214,Cairo Plastics Co,Egypt,2024-12-04,Air,2539.0,False,6.09,,9277.5,True,ok
+SC-0225,Kano Textile Co,Nigeria,2024-12-04,Road,1610.0,False,3.2,615.76,515.2,True,ok
+SC-0091,Nairobi Fresh Produce Ltd,Kenya,2024-12-05,Sea,6952.0,False,3.8,689.02,399.8,False,ok
+SC-0167,Lagos Agro Foods Ltd,Nigeria,2024-12-05,Road,401.0,False,9.0,488.0,362.3,False,ok
+SC-0004,Nairobi Fresh Produce Ltd,Kenya,2024-12-05,Air,3360.0,True,8.461,11956.47,9070.3,False,review
+SC-0230,Durban Steel Works Ltd,South Africa,2024-12-06,Air,2230.0,False,8.57,16791.48,11466.7,True,ok
+SC-0158,Cairo Plastics Co,Egypt,2024-12-06,Sea,5524.0,False,4.616,748.54,408.0,True,ok
+SC-0165,Kano Textile Co,Nigeria,2024-12-06,Road,1221.0,False,4.836,685.0,584.0,False,ok
+SC-0001,Cairo Plastics Co,Egypt,2024-12-07,Air,2318.0,True,5.3,22164.8,14620.7,False,review
+SC-0361,Ibadan Packaging Ltd,Nigeria,2024-12-09,Sea,8242.0,False,15.661,3106.77,1965.7,False,ok
+SC-0420,Lagos Agro Foods Ltd,Nigeria,2024-12-09,Road,1284.0,False,21.882,2510.01,2830.7,False,ok
+SC-0316,Lagos Agro Foods Ltd,Nigeria,2024-12-10,Air,3344.0,True,8.03,7004.0,5022.9,False,review
+SC-0322,Nairobi Fresh Produce Ltd,Kenya,2024-12-12,Road,1408.0,False,12.7,1441.8,1739.2,False,ok
+SC-0151,Cairo Plastics Co,Egypt,2024-12-15,Road,76.0,False,9.1,183.0,69.5,False,ok
+SC-0178,Durban Steel Works Ltd,South Africa,2024-12-15,Sea,5034.0,False,55.1,6383.51,4195.1,False,ok
+SC-0317,Nairobi Fresh Produce Ltd,Kenya,2024-12-16,Sea,3983.0,False,19.19,1518.72,1222.9,True,ok
+SC-0272,Lagos Agro Foods Ltd,Nigeria,2024-12-16,Sea,5348.0,True,4.16,235.59,77.9,False,review
+SC-0241,Nairobi Fresh Produce Ltd,Kenya,2024-12-19,Road,395.0,False,4.2,327.03,186.7,False,ok
+SC-0282,Lagos Agro Foods Ltd,Nigeria,2024-12-20,Road,1519.0,False,4.097,590.42,631.7,False,ok
+SC-0457,Nairobi Fresh Produce Ltd,Kenya,2024-12-23,Sea,3409.0,False,19.4,1327.54,1073.4,False,ok
+SC-0429,Cairo Plastics Co,Egypt,2024-12-25,Road,790.0,False,7.158,632.75,582.7,False,ok
+SC-0218,Lagos Agro Foods Ltd,Nigeria,2024-12-25,Road,1209.0,False,20.9,2533.44,2554.6,False,ok
+SC-0358,Kano Textile Co,Nigeria,2024-12-25,Sea,5261.0,False,19.98,2129.77,1681.8,True,ok
+SC-0042,Ibadan Packaging Ltd,Nigeria,2024-12-27,Sea,3890.0,False,2.1,295.17,120.6,False,ok
+SC-0279,Cairo Plastics Co,Egypt,2024-12-27,Sea,7030.0,False,15.79,,1968.0,False,ok
+SC-0447,Accra Cocoa Traders Ltd,Ghana,2024-12-27,Sea,6879.0,False,3.8,770.27,418.2,True,ok
+SC-0170,Cairo Plastics Co,Egypt,2024-12-28,Road,749.0,False,41.04,2706.0,3357.5,False,ok
+SC-0206,Kano Textile Co,Nigeria,2025-01-01,Sea,1150.0,False,15.2,596.0,280.0,False,ok
+SC-0172,Nairobi Fresh Produce Ltd,Kenya,2025-01-02,Road,289.0,False,2.1,206.0,58.9,False,ok
+SC-0080,Durban Steel Works Ltd,South Africa,2025-01-05,Sea,4249.0,False,6.0,,394.0,False,ok
+SC-0099,Durban Steel Works Ltd,South Africa,2025-01-05,Sea,8610.0,False,33.906,7023.0,4646.7,False,ok
+SC-0498,Durban Steel Works Ltd,South Africa,2025-01-05,Air,3815.0,False,4.3,14020.12,9436.1,False,ok
+SC-0066,Nairobi Fresh Produce Ltd,Kenya,2025-01-07,Sea,3273.0,False,14.299,1072.0,748.8,True,ok
+SC-0373,Nairobi Fresh Produce Ltd,Kenya,2025-01-07,Road,1701.0,False,8.2,1239.31,1350.7,False,ok
+SC-0120,Kano Textile Co,Nigeria,2025-01-09,Sea,1678.0,False,33.0,1331.0,916.8,False,ok
+SC-0083,Cairo Plastics Co,Egypt,2025-01-09,Road,1566.0,False,4.1,601.51,602.9,False,ok
+SC-0489,Kano Textile Co,Nigeria,2025-01-10,Sea,8929.0,False,,509.0,251.6,False,ok
+SC-0456,Ibadan Packaging Ltd,Nigeria,2025-01-11,Road,1563.0,False,13.014,1474.52,1956.9,False,ok
+SC-0508,Accra Cocoa Traders Ltd,Ghana,2025-01-12,Air,1339.0,False,16.4,21249.06,13175.8,True,ok
+SC-0349,Durban Steel Works Ltd,South Africa,2025-01-12,Road,969.0,False,5.9,542.55,578.1,False,ok
+SC-0301,Accra Cocoa Traders Ltd,Ghana,2025-01-13,Road,871.0,True,18.7,1004.09,1065.2,False,review
+SC-0450,Kano Textile Co,Nigeria,2025-01-13,Air,4188.0,False,9.11,37718.83,24022.9,False,ok
+SC-0152,Kano Textile Co,Nigeria,2025-01-13,Sea,7250.0,False,15.885,2204.26,1842.7,True,ok
+SC-0222,Nairobi Fresh Produce Ltd,Kenya,2025-01-14,Sea,6362.0,False,9.6,1478.91,977.2,True,ok
+SC-0131,Ibadan Packaging Ltd,Nigeria,2025-01-14,Road,864.0,True,28.31,3169.89,4476.4,False,review
+SC-0327,Durban Steel Works Ltd,South Africa,2025-01-15,Sea,8797.0,False,10.98,2061.0,1545.5,True,ok
+SC-0159,Accra Cocoa Traders Ltd,Ghana,2025-01-16,Road,874.0,False,22.98,1683.77,2050.3,False,ok
+SC-0331,Cairo Plastics Co,Egypt,2025-01-18,Sea,3943.0,False,19.9,1940.0,1187.2,False,ok
+SC-0069,Accra Cocoa Traders Ltd,Ghana,2025-01-18,Sea,5218.0,True,5.199,1131.0,731.7,False,review
+SC-0144,Ibadan Packaging Ltd,Nigeria,2025-01-18,Road,624.0,False,9.439,568.35,589.0,True,ok
+SC-0193,Ibadan Packaging Ltd,Nigeria,2025-01-20,Road,1475.0,False,5.8,1004.13,877.0,False,ok
+SC-0372,Kano Textile Co,Nigeria,2025-01-21,Sea,4832.0,False,,1926.86,1020.2,False,ok
+SC-0210,Kano Textile Co,Nigeria,2025-01-21,Air,692.0,False,12.43,7591.0,5398.6,False,ok
+SC-0109,Accra Cocoa Traders Ltd,Ghana,2025-01-24,Road,871.0,True,12.626,1397.23,1555.0,False,review
+SC-0491,Accra Cocoa Traders Ltd,Ghana,2025-01-25,Road,1476.0,False,20.03,2249.6,2902.6,False,ok
+SC-0188,Lagos Agro Foods Ltd,Nigeria,2025-01-25,Road,515.0,False,7.3,,376.4,False,ok
+SC-0452,Lagos Agro Foods Ltd,Nigeria,2025-01-25,Air,2609.0,False,6.36,16296.16,10318.0,False,ok
+SC-0504,Lagos Agro Foods Ltd,Nigeria,2025-01-27,Road,724.0,False,8.38,654.0,625.3,False,ok
+SC-0171,Accra Cocoa Traders Ltd,Ghana,2025-01-27,Road,1615.0,False,13.535,1910.63,2191.6,False,ok
+SC-0497,Lagos Agro Foods Ltd,Nigeria,2025-01-27,Air,3344.0,True,22.88,110948.0,45906.4,True,ok
+SC-0072,Lagos Agro Foods Ltd,Nigeria,2025-01-28,Road,1329.0,False,4.15,658.47,561.3,False,ok
+SC-0270,Durban Steel Works Ltd,South Africa,2025-01-28,Road,1274.0,False,10.512,1200.58,1210.2,False,ok
+SC-0053,Lagos Agro Foods Ltd,Nigeria,2025-01-29,Road,1504.0,False,7.578,1037.68,1126.9,False,ok
+SC-0047,Nairobi Fresh Produce Ltd,Kenya,2025-02-01,Sea,7571.0,False,13.0,1631.47,1574.8,True,ok
+SC-0371,Durban Steel Works Ltd,South Africa,2025-02-01,Sea,4119.0,False,5.672,673.64,355.1,False,ok
+SC-0203,Kano Textile Co,Nigeria,2025-02-01,Road,722.0,False,17.77,1026.59,1297.2,False,ok
+SC-0263,Ibadan Packaging Ltd,Nigeria,2025-02-02,Sea,3017.0,False,1.6,243.68,77.2,True,ok
+SC-0357,Accra Cocoa Traders Ltd,Ghana,2025-02-06,Road,1521.0,False,9.345,1192.0,1405.0,False,ok
+SC-0207,Lagos Agro Foods Ltd,Nigeria,2025-02-06,Sea,5857.0,False,4.315,746.76,408.9,False,ok
+SC-0306,Durban Steel Works Ltd,South Africa,2025-02-06,Road,860.0,False,5.93,,510.0,True,ok
+SC-0383,Durban Steel Works Ltd,South Africa,2025-02-07,Road,922.0,False,15.72,1474.7,1412.7,False,ok
+SC-0345,Cairo Plastics Co,Egypt,2025-02-09,Road,732.0,False,5.89,500.0,409.2,False,ok
+SC-0351,Accra Cocoa Traders Ltd,Ghana,2025-02-09,Sea,5540.0,False,15.2,1767.0,1270.2,False,ok
+SC-0377,Kano Textile Co,Nigeria,2025-02-10,Sea,6655.0,False,,2549.02,,False,ok
+SC-0077,Ibadan Packaging Ltd,Nigeria,2025-02-10,Road,867.0,False,9.29,797.93,844.3,False,ok
+SC-0228,Kano Textile Co,Nigeria,2025-02-11,Road,838.0,True,,290.26,,False,ok
+SC-0395,Ibadan Packaging Ltd,Nigeria,2025-02-12,Road,670.0,False,8.135,678.49,575.5,False,ok
+SC-0124,Durban Steel Works Ltd,South Africa,2025-02-13,Road,1464.0,False,4.285,620.09,630.0,False,ok
+SC-0056,Cairo Plastics Co,Egypt,2025-02-13,Road,1650.0,False,40.89,5407.0,6746.8,True,ok
+SC-0075,Durban Steel Works Ltd,South Africa,2025-02-13,Sea,5375.0,True,18.127,1980.07,1558.9,True,ok
+SC-0319,Accra Cocoa Traders Ltd,Ghana,2025-02-14,Road,868.0,False,15.2,1269.72,1287.6,False,ok
+SC-0054,Lagos Agro Foods Ltd,Nigeria,2025-02-19,Air,3344.0,True,5.484,7709.0,4430.1,False,review
+SC-0470,Lagos Agro Foods Ltd,Nigeria,2025-02-23,Sea,5407.0,False,4.8,725.0,415.3,True,ok
+SC-0097,Kano Textile Co,Nigeria,2025-02-25,Road,838.0,True,11.748,1510.45,2116.2,False,review
+SC-0428,Ibadan Packaging Ltd,Nigeria,2025-02-26,Sea,8175.0,False,3.35,609.04,427.0,False,ok
+SC-0396,Ibadan Packaging Ltd,Nigeria,2025-02-27,Air,5984.0,False,13.1,74858.0,46747.4,False,ok
+SC-0389,Ibadan Packaging Ltd,Nigeria,2025-03-01,Sea,5850.0,False,21.9,2658.0,2049.8,True,ok
+SC-0307,Accra Cocoa Traders Ltd,Ghana,2025-03-02,Road,1619.0,False,10.771,1933.3,1775.5,False,ok
+SC-0472,Lagos Agro Foods Ltd,Nigeria,2025-03-02,Road,1112.0,False,6.0,769.9,667.2,True,ok
+SC-0245,Accra Cocoa Traders Ltd,Ghana,2025-03-02,Road,987.0,False,5.154,600.0,554.1,False,ok
+SC-0403,Lagos Agro Foods Ltd,Nigeria,2025-03-02,Road,827.0,False,8.12,679.81,671.5,True,ok
+SC-0334,Kano Textile Co,Nigeria,2025-03-03,Sea,7337.0,False,17.62,2645.41,2073.4,False,ok
+SC-0503,Lagos Agro Foods Ltd,Nigeria,2025-03-04,Road,744.0,False,7.741,508.2,575.9,True,ok
+SC-0393,Accra Cocoa Traders Ltd,Ghana,2025-03-07,Road,1287.0,False,9.9,1282.79,1274.1,True,ok
+SC-0227,Durban Steel Works Ltd,South Africa,2025-03-07,Road,1065.0,False,13.35,1337.64,1421.8,True,ok
+SC-0254,Lagos Agro Foods Ltd,Nigeria,2025-03-10,Sea,1347.0,False,7.544,346.27,152.9,False,ok
+SC-0037,Accra Cocoa Traders Ltd,Ghana,2025-03-11,Road,1392.0,False,10.247,1185.0,1322.4,False,ok
+SC-0294,Kano Textile Co,Nigeria,2025-03-11,Road,1533.0,False,6.469,1180.33,991.7,True,ok
+SC-0246,Nairobi Fresh Produce Ltd,Kenya,2025-03-11,Road,916.0,False,3.46,468.46,316.9,True,ok
+SC-0031,Nairobi Fresh Produce Ltd,Kenya,2025-03-13,Air,3426.0,False,6.99,,14152.0,False,ok
+SC-0474,Cairo Plastics Co,Egypt,2025-03-13,Sea,1211.0,False,17.8,679.55,325.7,False,ok
+SC-0039,Nairobi Fresh Produce Ltd,Kenya,2025-03-14,Road,1314.0,False,5.362,728.0,677.3,False,ok
+SC-0303,Durban Steel Works Ltd,South Africa,2025-03-16,Sea,8795.0,False,3.94,752.0,545.1,False,ok
+SC-0166,Nairobi Fresh Produce Ltd,Kenya,2025-03-16,Road,1748.0,False,5.3,757.6,926.4,True,ok
+SC-0164,Ibadan Packaging Ltd,Nigeria,2025-03-16,Road,713.0,False,13.7,995.73,976.8,True,ok
+SC-0431,Durban Steel Works Ltd,South Africa,2025-03-18,Sea,8620.0,False,16.349,2934.0,2165.2,False,ok
+SC-0134,Cairo Plastics Co,Egypt,2025-03-19,Road,1421.0,False,12.409,1829.0,1745.5,False,ok
+SC-0105,Kano Textile Co,Nigeria,2025-03-21,Road,838.0,True,14.6,1351.43,1513.8,False,ok
+SC-0443,Ibadan Packaging Ltd,Nigeria,2025-03-21,Road,383.0,False,13.16,480.47,503.3,False,ok
+SC-0416,Cairo Plastics Co,Egypt,2025-03-22,Sea,8219.0,False,,3074.5,2449.4,False,ok
+SC-0076,Lagos Agro Foods Ltd,Nigeria,2025-03-23,Sea,5348.0,True,5.884,915.72,566.4,False,ok
+SC-0259,Accra Cocoa Traders Ltd,Ghana,2025-03-25,Road,93.0,False,9.4,232.19,88.7,False,ok
+SC-0182,Ibadan Packaging Ltd,Nigeria,2025-03-25,Air,2376.0,False,5.1,10972.0,6733.8,False,ok
+SC-0347,Cairo Plastics Co,Egypt,2025-03-26,Sea,3169.0,False,27.65,1899.0,1538.2,False,ok
+SC-0310,Lagos Agro Foods Ltd,Nigeria,2025-03-27,Road,137.0,False,12.4,252.47,174.4,False,ok
+SC-0318,Cairo Plastics Co,Egypt,2025-03-27,Sea,8375.0,False,15.2,2781.85,2036.8,True,ok
+SC-0078,Ibadan Packaging Ltd,Nigeria,2025-03-27,Road,1528.0,False,,1861.49,2197.4,False,ok
+SC-0453,Lagos Agro Foods Ltd,Nigeria,2025-03-31,Road,641.0,False,6.87,450.39,440.4,True,ok
+SC-0070,Ibadan Packaging Ltd,Nigeria,2025-03-31,Road,1222.0,False,25.542,2547.0,3075.2,False,ok
+SC-0398,Cairo Plastics Co,Egypt,2025-04-03,Road,1158.0,True,18.71,949.0,1002.0,False,review
+SC-0363,Cairo Plastics Co,Egypt,2025-04-03,Road,937.0,False,22.26,1598.09,2134.8,False,ok
+SC-0451,Lagos Agro Foods Ltd,Nigeria,2025-04-04,Road,880.0,False,4.36,420.44,383.7,True,ok
+SC-0460,Accra Cocoa Traders Ltd,Ghana,2025-04-05,Air,3724.0,False,5.71,19530.56,12995.1,False,ok
+SC-0153,Ibadan Packaging Ltd,Nigeria,2025-04-09,Air,1918.0,False,41.08,69537.67,49068.6,False,ok
+SC-0367,Accra Cocoa Traders Ltd,Ghana,2025-04-09,Road,1387.0,False,6.07,761.34,795.8,False,ok
+SC-0376,Nairobi Fresh Produce Ltd,Kenya,2025-04-12,Sea,6567.0,False,3.722,631.33,375.5,False,ok
+SC-0260,Ibadan Packaging Ltd,Nigeria,2025-04-13,Sea,7873.0,False,2.65,628.2,340.2,False,ok
+SC-0060,Accra Cocoa Traders Ltd,Ghana,2025-04-14,Road,871.0,True,,503.27,459.5,False,ok
+SC-0354,Ibadan Packaging Ltd,Nigeria,2025-04-16,Road,1156.0,False,38.126,3552.6,4403.5,False,ok
+SC-0155,Nairobi Fresh Produce Ltd,Kenya,2025-04-19,Air,2310.0,False,12.11,27265.9,16784.5,True,ok
+SC-0216,Kano Textile Co,Nigeria,2025-04-20,Road,838.0,True,9.6,1127.22,1285.0,False,review
+SC-0401,Accra Cocoa Traders Ltd,Ghana,2025-04-20,Air,4259.0,True,30.971,82130.0,49833.2,False,review
+SC-0400,Kano Textile Co,Nigeria,2025-04-20,Sea,7781.0,False,11.6,2086.0,1550.3,False,ok
+SC-0229,Ibadan Packaging Ltd,Nigeria,2025-04-20,Air,4599.0,False,11.33,49010.75,34568.4,False,ok
+SC-0062,Ibadan Packaging Ltd,Nigeria,2025-04-21,Road,864.0,True,,229.46,80.2,False,ok
+SC-0187,Kano Textile Co,Nigeria,2025-04-21,Sea,8084.0,False,,1463.0,1103.4,False,ok
+SC-0391,Ibadan Packaging Ltd,Nigeria,2025-04-21,Road,368.0,False,10.644,383.0,391.7,True,ok
+SC-0013,Accra Cocoa Traders Ltd,Ghana,2025-04-22,Sea,1879.0,False,24.0,1129.0,721.5,True,ok
+SC-0266,Lagos Agro Foods Ltd,Nigeria,2025-04-22,Sea,5006.0,False,6.6,986.0,528.6,True,ok
+SC-0516,Kano Textile Co,Nigeria,2025-04-24,Road,229.0,False,10.45,356.64,227.1,False,ok
+SC-0191,Kano Textile Co,Nigeria,2025-04-25,Sea,1237.0,False,6.21,308.53,118.6,False,ok
+SC-0065,Durban Steel Works Ltd,South Africa,2025-04-25,Sea,7598.0,False,10.821,1599.16,1390.6,False,ok
+SC-0283,Accra Cocoa Traders Ltd,Ghana,2025-04-26,Road,1330.0,False,5.56,737.39,784.6,False,ok
+SC-0015,Kano Textile Co,Nigeria,2025-04-27,Sea,5471.0,False,9.89,1179.22,865.7,True,ok
+SC-0390,Accra Cocoa Traders Ltd,Ghana,2025-05-04,Road,518.0,False,11.3,620.0,568.4,False,ok
+SC-0049,Nairobi Fresh Produce Ltd,Kenya,2025-05-04,Road,372.0,False,6.762,338.0,230.0,False,ok
+SC-0147,Nairobi Fresh Produce Ltd,Kenya,2025-05-05,Sea,1564.0,False,23.27,836.2,533.9,False,ok
+SC-0295,Kano Textile Co,Nigeria,2025-05-06,Air,2475.0,False,23.0,60932.0,32906.3,False,ok
+SC-0278,Cairo Plastics Co,Egypt,2025-05-06,Air,1607.0,False,6.9,12616.0,6530.6,False,ok
+SC-0325,Kano Textile Co,Nigeria,2025-05-13,Air,3310.0,False,43.36,118402.51,89154.3,False,ok
+SC-0197,Nairobi Fresh Produce Ltd,Kenya,2025-05-14,Sea,2120.0,False,5.61,329.3,181.8,False,ok
+SC-0518,Lagos Agro Foods Ltd,Nigeria,2025-05-14,Road,443.0,False,13.53,638.69,604.7,False,ok
+SC-0067,Kano Textile Co,Nigeria,2025-05-17,Sea,3501.0,False,17.39,1342.01,984.9,False,ok
+SC-0368,Lagos Agro Foods Ltd,Nigeria,2025-05-18,Air,2714.0,False,3.706,8960.98,5771.3,False,ok
+SC-0096,Nairobi Fresh Produce Ltd,Kenya,2025-05-19,Air,4209.0,False,13.483,52295.03,31567.1,False,ok
+SC-0335,Lagos Agro Foods Ltd,Nigeria,2025-05-20,Sea,5288.0,False,4.608,637.57,389.9,True,ok
+SC-0387,Accra Cocoa Traders Ltd,Ghana,2025-05-21,Sea,5159.0,False,7.46,936.0,615.8,True,ok
+SC-0471,Accra Cocoa Traders Ltd,Ghana,2025-05-21,Air,5889.0,False,13.98,88541.0,49396.9,True,ok
+SC-0073,Lagos Agro Foods Ltd,Nigeria,2025-05-23,Road,842.0,False,9.634,758.0,778.7,False,ok
+SC-0455,Kano Textile Co,Nigeria,2025-05-23,Road,838.0,True,15.94,1499.61,2216.6,False,review
+SC-0189,Ibadan Packaging Ltd,Nigeria,2025-05-23,Road,864.0,True,12.9,,509.6,False,review
+SC-0346,Ibadan Packaging Ltd,Nigeria,2025-05-24,Road,1640.0,False,7.274,1305.13,1245.5,False,ok
+SC-0130,Durban Steel Works Ltd,South Africa,2025-05-25,Road,1297.0,False,12.05,1416.91,1688.4,False,ok
+SC-0132,Lagos Agro Foods Ltd,Nigeria,2025-05-27,Road,1657.0,False,26.5,3128.0,4556.3,False,ok
+SC-0362,Ibadan Packaging Ltd,Nigeria,2025-05-28,Air,1437.0,False,22.4,31332.96,18463.6,False,ok
+SC-0419,Kano Textile Co,Nigeria,2025-05-29,Sea,8285.0,False,19.2,3306.96,2543.2,False,ok
+SC-0309,Ibadan Packaging Ltd,Nigeria,2025-05-30,Road,270.0,False,5.0,273.78,122.6,False,ok
+SC-0291,Accra Cocoa Traders Ltd,Ghana,2025-05-30,Air,5069.0,False,3.979,19533.32,12101.7,True,ok
+SC-0415,Ibadan Packaging Ltd,Nigeria,2025-05-31,Road,69.0,False,32.1,392.7,206.7,False,ok
+SC-0180,Cairo Plastics Co,Egypt,2025-06-01,Road,1790.0,False,3.4,590.11,539.8,False,ok
+SC-0082,Durban Steel Works Ltd,South Africa,2025-06-01,Air,2636.0,False,11.2,26754.5,19414.7,False,ok
+SC-0204,Durban Steel Works Ltd,South Africa,2025-06-01,Road,1799.0,False,6.655,931.0,1145.1,False,ok
+SC-0173,Kano Textile Co,Nigeria,2025-06-07,Road,332.0,False,3.7,208.0,115.4,False,ok
+SC-0162,Ibadan Packaging Ltd,Nigeria,2025-06-08,Road,864.0,False,48.9,3251.0,4225.0,True,ok
+SC-0029,Lagos Agro Foods Ltd,Nigeria,2025-06-08,Road,1149.0,False,10.486,1033.26,1232.7,False,ok
+SC-0183,Lagos Agro Foods Ltd,Nigeria,2025-06-08,Road,1572.0,False,8.259,,1309.3,False,ok
+SC-0215,Durban Steel Works Ltd,South Africa,2025-06-08,Road,1739.0,False,6.4,1075.57,1108.0,False,ok
+SC-0202,Nairobi Fresh Produce Ltd,Kenya,2025-06-12,Sea,7877.0,False,19.045,3542.49,2540.5,False,ok
+SC-0392,Nairobi Fresh Produce Ltd,Kenya,2025-06-12,Sea,4479.0,False,,925.0,613.2,False,ok
+SC-0444,Ibadan Packaging Ltd,Nigeria,2025-06-12,Air,2447.0,False,4.303,8279.0,6393.6,False,ok
+SC-0142,Accra Cocoa Traders Ltd,Ghana,2025-06-13,Road,494.0,False,5.028,316.75,242.4,False,ok
+SC-0350,Durban Steel Works Ltd,South Africa,2025-06-16,Sea,4916.0,False,6.3,694.93,495.5,True,ok
+SC-0374,Lagos Agro Foods Ltd,Nigeria,2025-06-20,Road,978.0,False,12.58,1070.45,1230.3,True,ok
+SC-0237,Nairobi Fresh Produce Ltd,Kenya,2025-06-21,Road,939.0,False,4.3,464.53,403.8,True,ok
+SC-0418,Kano Textile Co,Nigeria,2025-06-24,Sea,7004.0,False,13.0,1636.43,1456.8,True,ok
+SC-0505,Accra Cocoa Traders Ltd,Ghana,2025-06-24,Sea,5278.0,False,4.21,562.43,355.5,True,ok
+SC-0177,Durban Steel Works Ltd,South Africa,2025-06-25,Sea,4275.0,False,18.5,1671.0,1215.3,False,ok
+SC-0360,Nairobi Fresh Produce Ltd,Kenya,2025-06-27,Sea,5294.0,True,21.045,2773.59,1782.6,True,ok
+SC-0050,Kano Textile Co,Nigeria,2025-06-28,Air,2182.0,True,15.93,74841.0,20855.6,True,ok
+SC-0469,Lagos Agro Foods Ltd,Nigeria,2025-06-29,Road,306.0,False,8.49,380.0,259.8,True,ok
+SC-0510,Durban Steel Works Ltd,South Africa,,Road,1630.0,False,7.1,1026.84,1157.3,True,ok
+SC-0038,Kano Textile Co,Nigeria,,Sea,1589.0,False,14.21,597.99,368.8,False,ok
+SC-0102,Accra Cocoa Traders Ltd,Ghana,,Road,1622.0,False,4.94,672.02,801.3,True,ok
+SC-0074,Durban Steel Works Ltd,South Africa,,Road,392.0,False,9.643,494.35,350.4,False,ok
+SC-0125,Accra Cocoa Traders Ltd,Ghana,,Road,848.0,False,12.282,972.1,1024.8,False,ok
+SC-0242,Cairo Plastics Co,Egypt,,Air,3496.0,False,31.205,105504.71,64364.3,False,ok
+SC-0137,Durban Steel Works Ltd,South Africa,,Road,1369.0,False,23.697,2865.43,3309.5,False,ok
+SC-0339,Cairo Plastics Co,Egypt,,Air,3619.0,False,7.03,20085.82,14682.9,False,ok
+SC-0129,Kano Textile Co,Nigeria,,Sea,2876.0,False,8.44,670.11,388.4,True,ok
+SC-0366,Cairo Plastics Co,Egypt,,Sea,1207.0,False,6.165,313.95,119.1,True,ok
+SC-0304,Durban Steel Works Ltd,South Africa,,Road,1065.0,True,4.36,196.0,88.5,False,review
+SC-0007,Durban Steel Works Ltd,South Africa,,Road,1503.0,False,,936.35,1001.6,False,ok
+SC-0035,Kano Textile Co,Nigeria,,Sea,8673.0,False,28.2,4494.93,3595.5,False,ok
+SC-0213,Cairo Plastics Co,Egypt,,Road,563.0,False,4.5,432.0,253.4,True,ok
+SC-0485,Kano Textile Co,Nigeria,,Road,1397.0,False,12.02,1588.0,1835.0,False,ok
+SC-0406,Ibadan Packaging Ltd,Nigeria,,Road,1507.0,False,8.43,1213.0,1244.3,False,ok

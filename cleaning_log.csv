@@ -1,0 +1,13 @@
+step,description,rows_before,rows_after,cells_changed
+1,"Standardise shipment IDs, then drop duplicate rows",570,520,70
+2,"Standardise supplier names (case, spacing, Ltd/Limited, Co/Company)",520,520,245
+3,Map country spellings and codes to one standard name,520,520,382
+3,"Map transport mode labels to Road, Sea or Air",520,520,427
+4,Parse four date formats into one; dates outside 2024 to 2025 set to missing,520,520,378
+5,Remove 'km' and thousands separators from distance,520,520,338
+5,Convert weight to tonnes (kg values divided by 1000),520,520,375
+5,Remove '$' and thousands separators from cost,520,520,365
+6,"Distances at or below 0 or above 20,000 km set to missing",520,520,24
+6,Weights at or below 0 or above 200 t set to missing,520,520,0
+7,Fill missing distance with the median for the same supplier and mode (flagged),520,520,55
+8,Estimate missing emissions as distance x weight x mode factor (flagged),520,520,146
